@@ -1,0 +1,58 @@
+.equipoContainer {
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 1px;
+    width: calc(50% - 5px);
+    height: 82vh;
+  }
+  .equipoContainer h1 {
+    color: #8b4513;
+    font-size: 40px;
+    font-family: 'Tilt Prism', cursive;
+    margin-bottom: 0px;
+  }
+  .equipoContainer p {
+    color: #8b4513;
+    font-size: 126px;
+    font-family: 'Tilt Prism', cursive;
+    margin-bottom: 0px;
+  }
+  .equipoContainer button {
+    background-color: #8b4513;
+    font-family: 'Tilt Prism';
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .equipoContainer button:hover {
+    background-color: #a0522d;
+  }
+  
+  
+  .equipoContainer button:active {
+    transform: translateY(1px);
+  }
+  
+
+.ganador{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 60px;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    color: #8b4513;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
