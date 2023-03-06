@@ -61,3 +61,25 @@
     text-decoration: none;
     color: #8b4513;
   }
+
+  
+@media screen and (max-width: 768px) {
+  .grandContainer {
+    padding: 40px;
+  }
+
+  .countersContainer {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 0px;
+  }
+
+  .footerText {
+    font-size: 14px;
+  }
+
+  .iconLinks {
+    font-size: 24px;
+  }
+}
